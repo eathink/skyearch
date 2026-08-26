@@ -1,0 +1,18 @@
+server:
+  host: 0.0.0.0
+  port: 8080
+
+storage:
+  data-path: ./data
+
+lucene:
+  # smart-chinese = SmartChineseAnalyzer(Lucene 自带中文分词)
+  # standard      = StandardAnalyzer(CJK 双字切分)
+  analyzer: smart-chinese
+  ram-buffer-mb: 64
+  # 写入后可被搜索到的刷新间隔
+  refresh-interval-ms: 1000
+
+search:
+  default-limit: 20
+  max-limit: 100
