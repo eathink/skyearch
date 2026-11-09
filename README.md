@@ -10,6 +10,7 @@
 [![Netty](https://img.shields.io/badge/Netty-4.1.115.Final-brightgreen.svg)](https://netty.io/)
 [![Lucene](https://img.shields.io/badge/Lucene-9.12.3-red.svg)](https://lucene.apache.org/)
 [![Maven](https://img.shields.io/badge/Maven-3.8%2B-blue.svg)](https://maven.apache.org/)
+[![CI](https://github.com/eathink/skyearch/actions/workflows/ci.yml/badge.svg)](https://github.com/eathink/skyearch/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 
 </div>
